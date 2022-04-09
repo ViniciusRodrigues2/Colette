@@ -63,7 +63,7 @@ body{
     overflow-y: hidden;
 }
 .container-glob .navgation-mobile ul li a{
-    font-size: 2em ;
+    font-size: 1.8em ;
     text-align: center;
     text-decoration: none;
     color: #0e0e0e;
@@ -113,6 +113,11 @@ body{
     color: white;
     font-weight: 500;
 }
+.conteudo-main{
+    width: 100%;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+}
 .conteudo-main .content-section .loc-informs-image{
     display: block;
     max-width: 100vw;
@@ -120,7 +125,7 @@ body{
     text-align: center;
 }
 .conteudo-main .content-section .loc-informs-image img{
-    width: 33.333em;
+    width: 80%;
 }
 .conteudo-main .content-section .experencies{
     padding: 40px;
@@ -149,12 +154,11 @@ body{
     font-weight: 200;
     font-size: .75em;
 }
-.conteudo-main .content-section .bg-img{
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.419),rgba(0, 0, 0, 0.389)),url('img/flat-lay-assortment-with-delicious-brazilian-food.jpg');
-    width: 100%;
-    height: 100vh;
+.conteudo-main .content-section .bg-img img{
     background-size: cover;
-    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .conteudo-main .info-guormet{
@@ -231,12 +235,10 @@ body{
     margin: auto;
 
 }
-.conteudo-main .final .bg-img{
-    background-image: url('img/bg-ground-cheffs.jpg');
-    width: 100%;
-    height: 100vh;
+.conteudo-main .final .bg-img img{
     background-size: cover;
-    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 .conteudo-main .final .end-info{
     display: block;
