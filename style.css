@@ -16,7 +16,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow-x: hidden;
 }
 .container-glob .navgation{
     display: none;
@@ -76,6 +75,9 @@ body{
     color: #0e0e0e;
 }
 #check:checked ~ .container-glob .hcc{
+    display: none;
+}
+#check:checked ~ .rodape{
     display: none;
 }
 .container-glob .hcc{
@@ -152,6 +154,7 @@ body{
     width: 100%;
     height: 100vh;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .conteudo-main .info-guormet{
@@ -159,82 +162,73 @@ body{
     margin: 0;
 }
 .conteudo-main .info-guormet .info-loc{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
-    margin: 0 auto;
-    padding-left: 1.5em;
+    margin: 2.3em auto;
 }
 .conteudo-main .info-guormet .info-loc .img{
     display: block;
-    padding-left: 2em;
 }
 .conteudo-main .info-guormet .info-loc .img img{
-    width: 13em;
+    width: 18em;
 }
 .conteudo-main .info-guormet .info-loc .prf{
-   width: 100%;
-   display: inline-block;
+    width: 50%;
+   display: block;
    margin: auto;
-   padding-left: 1.5em;
-   margin-left: 2em;
-   padding-top: 16em;
    text-align: left;
 }
 .conteudo-main .info-guormet .info-loc .prf h4{
     font-size: 1.4em;
-    width: 80%;
     font-weight: 200;
     line-height: 1.5;
+    margin: auto;
 }
 
 .conteudo-main .info-guormet .info-loc-doublle{
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
-    padding-right: 2.4em;
 }
 .conteudo-main .info-guormet .info-loc-doublle .img{
-    margin-top: 2em;
-    margin-right: 2.5em;
+    margin: auto;
+    text-align: center;
 }
 .conteudo-main .info-guormet .info-loc-doublle .img img{
-    width: 13em;
+    width: 18em;
 }
 .conteudo-main .info-guormet .info-loc-doublle .prf2{
-    width: 100%;
-   display: inline-block;
-   margin: auto;
-   padding-left: 1.5em;
-   margin-left: 2em;
+   width: 50%;
+   display: block;
+   margin: 2.2em auto;
    text-align: left;
-   padding-right: 2em;
-   padding-top: 6em;
 }
 .conteudo-main .info-guormet .info-loc-doublle .prf2 h4{
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 1.5;
     font-weight: 300;
 }
 
 .conteudo-main .info-guormet .buttons-info{
     display: block;
-    width: 50%;
-    margin-left: 3.2em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    text-align: center;
+    margin-bottom: 4em;
 }
 .conteudo-main .info-guormet .buttons-info a{
     display: inline-block;
     background-color: #db423d;
-    width: 75%;
     padding: 1.5em 3.5em;
     text-decoration: none;
     color: white;
     text-align: left;
     font-weight: 800;
+    margin: auto;
 
 }
 .conteudo-main .final .bg-img{
@@ -242,6 +236,7 @@ body{
     width: 100%;
     height: 100vh;
     background-size: cover;
+    overflow-x: hidden;
 }
 .conteudo-main .final .end-info{
     display: block;
