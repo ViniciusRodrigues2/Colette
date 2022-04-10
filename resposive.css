@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@media screen and (min-width:540px) {
+    .conteudo-main .content-section .bg-img img{
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .conteudo-main .info-guormet .info-loc{
+        display: flex;
+        flex-direction: row;
+    }
+    .conteudo-main .info-guormet .info-loc .prf{
+        padding-top: 14em;
+        padding-left: 3em;
+    }
+    .conteudo-main .info-guormet .info-loc .prf h4{
+        font-size: 1.4em;
+        line-height: 1.8;
+        letter-spacing: 1.5px;
+    }
+    .conteudo-main .info-guormet .info-loc .img{
+        max-width: 240px;
+        padding-left: 2.2em;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .conteudo-main .info-guormet .info-loc .img img{
+        width: 100%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle{
+        flex-direction: row-reverse;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .img{
+        max-width: 220px;
+        padding-right: 2em;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .img img{
+        width: 100%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .prf2{
+        padding-left: 2em;
+        padding-top: 5em;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .prf2 h4{
+        font-size: 1.6em;
+        line-height: 2;
+        letter-spacing: 1.5;
+    }
+    .conteudo-main .info-guormet .buttons-info{
+        display: block;
+        text-align: left;
+        margin-left: 3.5em;
+    }
+    .conteudo-main .info-guormet .buttons-info a{
+        display: inline-block;
+        background-color: #db423d;
+        padding: 2em 2em;
+    }
+}
+@media screen and (min-width:760px) {
+    .conteudo-main .content-section .experencies{
+        display: flex;
+        margin-top: 2.5em;
+    }
+    .conteudo-main .content-section .experencies h5{
+        font-size: 1.2em;
+        flex: 1;
+    }
+    .conteudo-main .content-section .experencies p{
+        font-size: 1.55em;
+        line-height: 1.5;
+        padding-left: 3em;
+        flex: 2;
+    }
+    .conteudo-main .content-section .experince-info .flex-cont{
+        display: flex;
+        margin-left: 38%;
+        margin-bottom: 2.2em;
+    }
+    .conteudo-main .content-section .experince-info .flex-cont li{
+        list-style: none;
+        display: block;
+        font-size: 1.1em;
+        font-weight: 600;
+        padding: 1.2em;
+    }
+    .conteudo-main .content-section .experince-info .flex-cont li span{
+        display: block;
+        padding-top: 1.1em;
+        font-weight: 500;
+    }
+    .conteudo-main .content-section .experince-info ul{
+        display: flex;
+        margin-left: 38%;
+    }
+    .conteudo-main .content-section .experince-info ul li{
+        padding: 1.5em;
+    }
+    .conteudo-main .content-section .experince-info ul li span{
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width:1000px) {
+    body{
+        
+        width: 100%;
+        height: 100%;
+    }
+    .container-glob{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-glob .navgation{
+        display: block;
+    }
+    .container-glob .navgation li{
+        display: inline-block;
+        list-style: none;
+        padding: 1.4em 1.5em;
+    }
+    .container-glob .navgation li a{
+        text-decoration: none;
+        font-size: .95em;
+        color: #0e0e0e;
+    }
+    .import-text .hcc .conteudo-header h1{
+        font-size: 2.8em;
+        padding: 2em;
+    }
+    .import-text .hcc .conteudo-header p{
+        font-size: 1.4em;
+    }
+
+    .conteudo-main .content-section .experince-info .flex-cont{
+        display: flex;
+        margin-left: 32%;
+        margin-bottom: 2.2em;
+    }
+    .conteudo-main .content-section .experince-info .flex-cont li{
+        padding: 4em;
+        font-size: 1.3em;
+    }
+    .conteudo-main .content-section .experince-info .flex-cont li span{
+        font-size: .75em;
+    }
+    .conteudo-main .content-section .experince-info ul{
+        margin-left: 30%;
+    }
+    .conteudo-main .content-section .experince-info ul li{
+        padding: 5em;
+        font-size: 1.3em;
+    }
+    .conteudo-main .content-section .experince-info ul li span{
+        font-size: .75em;
+    }
+
+
+
+
+
+    .container-glob .navgation-mobile{
+        display: none;
+    }
+    #check,label{
+        display: none;
+    }
+}
