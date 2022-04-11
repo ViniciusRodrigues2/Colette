@@ -169,4 +169,139 @@
     #check,label{
         display: none;
     }
+    .conteudo-main .info-guormet{
+        margin-bottom: 10em;
+    }
+    .conteudo-main .info-guormet .info-loc{
+        margin: 0;
+    }
+    .conteudo-main .info-guormet .info-loc .img{
+        max-width: 50em;
+        margin-top: 3em;
+    }
+    .conteudo-main .info-guormet .info-loc .img img{
+        width: 25em;
+    }
+    .conteudo-main .info-guormet .info-loc .prf{
+        padding: 0;
+    }
+    .conteudo-main .info-guormet .info-loc .prf h4{
+        font-size: 2em;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .img{
+        max-width: initial;
+        margin-top: 2.5em;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .img img{
+        width: 28em;
+        height: 100%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .prf2{
+        position: relative;
+        width: 50%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .prf2 h4{
+        font-size: 2em;
+        line-height: 1.2;
+    }
+    .conteudo-main .info-guormet .buttons-info{
+        margin: 0;
+        position: absolute;
+        top: 269em;
+        margin-left: 4.6em;
+    }
+    .conteudo-main .info-guormet .buttons-info a{
+        display: inline-block;
+        background-color: #db423d;
+        padding: 1.5em 3em;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        font-weight: 800;
+        margin: auto;
+        font-size: .85em;
+    
+    }
+    .conteudo-main .final .end-info{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 8em auto;
+        padding:10em;
+    }
+    .conteudo-main .final .end-info h2{
+        font-size: 2.4em;
+        width: 70%;
+        margin: auto;
+    }
+    .conteudo-main .final .end-info a{
+        display: inline-block;
+        text-decoration: none;
+        background-color: #db423d;
+        padding: 1.3em 3em;
+        margin-top: 2.5em;
+        color: white;
+        font-size: 1.2em;
+        transition: all .3s ease-in-out;
+    }
+    .conteudo-main .final .end-info a:hover{
+        background-color: #E06460
+    }
+}
+@media screen and (max-width:200px) {
+    *{
+        color: white;
+        font-size: .65em;
+    }
+    body{
+        background-color: #0e0e0e;
+        position: relative;
+    }
+    label{
+        color: rgb(201, 201, 201);
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 3em;
+    }
+    .container-glob .logo-type a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+    }
+    .import-text .hcc .conteudo-header{
+        text-align: center;
+        margin:2em auto;
+    }
+    .import-text .hcc .conteudo-header h1{
+        font-size: 2em;
+        line-height: 1.6;
+        font-weight: 500;
+        margin-top: 20em;
+    }
+    .conteudo-main .info-guormet .info-loc .img img{
+        width: 70%;
+    }
+    .conteudo-main .info-guormet .info-loc .prf h4{
+        font-size: 9em;
+        width: 100%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .img img{
+        width: 70%;
+    }
+    .conteudo-main .info-guormet .info-loc-doublle .prf2 h4{
+        font-size: 10em;
+    }
+    .conteudo-main .info-guormet .buttons-info a{
+        display: inline-block;
+        background-color: #db423d;
+        padding: 1.5em 3em;
+        text-decoration: none;
+        color: white;
+        text-align: left;
+        font-weight: 800;
+        margin: 2.5em auto;
+        font-size: 5em;
+    
+    }
 }
