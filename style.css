@@ -11,6 +11,53 @@ body{
     position: relative;
     overflow-x: hidden;
 }
+.enclobar{
+    position: absolute;
+    top: 0;
+    height: 815vh;
+}
+#bgcheck{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+#bgcheck:checked ~ .enclobar{
+    background-color: #0e0e0e;
+}
+#bgcheck:checked ~ .visible-check{
+    color: rgb(199, 255, 116);
+}
+#bgcheck:checked ~ .enclobar .container-glob .logo-type a{
+    color: white;
+}
+#bgcheck:checked ~ .enclobar .container-glob  .navgation ul li a{
+    color: white;
+}
+#bgcheck:checked ~ .enclobar
+.import-text .hcc .conteudo-header{
+    background-color: white;
+    transform: scale(1.2);
+}
+#bgcheck:checked ~ .enclobar .label{
+    color: whitesmoke;
+}
+#bgcheck:checked ~ .enclobar .conteudo-main .content-section .experencies h5,.enclobar .conteudo-main .content-section .experencies p,.enclobar .conteudo-main .content-section .experince-info .flex-cont li,.enclobar  .conteudo-main .content-section .experince-info .flex-cont li span,.enclobar .conteudo-main .content-section .experince-info ul li,.enclobar .conteudo-main .info-guormet .info-loc .prf h4,.conteudo-main .info-guormet .info-loc-doublle .prf2 h4,.conteudo-main .final .end-info h2,.enclobar .rodape p
+{
+    color: white;
+}
+.enclobar .container-glob  .navgation ul li a{
+    color: #0e0e0e;
+    transition: all .5s ease-in-out;
+}
+.visible-check{
+    display: inline-block;
+    left:7.2em;
+    cursor: pointer;
+    color: #0e0e0e;
+    transition: all .3s ease-in-out;
+    width: 5%;
+}
 .container-glob{
     position: relative;
     display: flex;
@@ -30,6 +77,7 @@ body{
 .container-glob .logo-type a{
     text-decoration: none;
     color: black;
+    transition: all .4s ease-in-out;
     font-size: 1.4em;
 }
 .container-glob .navgation-mobile{
@@ -86,6 +134,9 @@ body{
 .import-text .hcc .conteudo-header{
     text-align: center;
     margin: 2em auto;
+    transform: scale(1);
+    background-color: transparent;
+    transition: all .3s ease-in-out;
 }
 .import-text .hcc .conteudo-header h1{
     font-size: 1.7em;
@@ -310,4 +361,5 @@ label{
     font-size: 35px;
     color: gray;
     z-index: 5;
+    transition: all .5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
