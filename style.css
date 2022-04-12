@@ -26,7 +26,7 @@ body{
     background-color: #0e0e0e;
 }
 #bgcheck:checked ~ .visible-check{
-    color: rgb(199, 255, 116);
+    color: rgb(255, 255, 255);
 }
 #bgcheck:checked ~ .enclobar .container-glob .logo-type a{
     color: white;
