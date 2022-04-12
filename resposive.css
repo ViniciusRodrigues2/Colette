@@ -305,3 +305,12 @@
     
     }
 }
+@media screen and (min-width:1400px){
+    .conteudo-main .info-guormet .buttons-info{
+        display: inline-block;
+        position: sticky;
+        padding: 0;
+        margin-left: 7em;
+
+    }
+}
