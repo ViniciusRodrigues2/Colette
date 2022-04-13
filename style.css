@@ -25,8 +25,11 @@ body{
 #bgcheck:checked ~ .enclobar{
     background-color: #0e0e0e;
 }
+#bgcheck:checked ~ .visible-check::after{
+    background-color: white;
+}
 #bgcheck:checked ~ .visible-check{
-    color: rgb(255, 255, 255);
+    border: 2px dashed white;
 }
 #bgcheck:checked ~ .enclobar .container-glob .logo-type a{
     color: white;
@@ -51,12 +54,28 @@ body{
     transition: all .5s ease-in-out;
 }
 .visible-check{
-    display: inline-block;
-    left:7.2em;
+    display: block;
+    position: relative;
+    left: 6em;
     cursor: pointer;
     color: #0e0e0e;
-    transition: all .3s ease-in-out;
-    width: 5%;
+    width: 30px;
+    height: 30px;
+    border: 2px dotted #0e0e0e;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    transition-delay: .2s;
+}
+.visible-check::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #0e0e0e;
+    border-radius: 50%;
+    position: absolute;
+    right: 3px;
+    bottom: 2.5px;
 }
 .container-glob{
     position: relative;
@@ -179,17 +198,21 @@ body{
     width: 80%;
 }
 .conteudo-main .content-section .experencies{
+    display: block;
     padding: 40px;
+    color: #000;
 }
 .conteudo-main .content-section .experencies h5{
     font-weight: 300;
     margin-left: 2.4em;
     margin-bottom: 1.4em;
+    color: #000;
 }
 .conteudo-main .content-section .experencies p{
     font-size: 1.6em;
     line-height: 1.3;
     margin-left: 1.2em;
+    color: #000;
 }
 .conteudo-main .content-section .experince-info{
     margin-left: 4.4em;
@@ -212,6 +235,7 @@ body{
 .conteudo-main .content-section .experince-info ul li{
     list-style: none;
     font-weight: 800;
+    color: #000;
 }
 .conteudo-main .content-section .experince-info ul li span{
     display: block;
@@ -219,6 +243,7 @@ body{
     margin-bottom: 2em;
     font-weight: 200;
     font-size: .75em;
+    color: #000;
 }
 .conteudo-main .content-section .bg-img img{
     background-size: cover;
