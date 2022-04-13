@@ -12,9 +12,14 @@ body{
     overflow-x: hidden;
 }
 .enclobar{
+    display: block;
     position: absolute;
     top: 0;
-    height: 815vh;
+    height: 0;
+    transition: all .3s ease-in-out;
+}
+#bgcheck:checked ~ .enclobar{
+    height: 495vh;
 }
 #bgcheck{
     width: 1px;
@@ -45,8 +50,11 @@ body{
 #bgcheck:checked ~ .enclobar .label{
     color: whitesmoke;
 }
-#bgcheck:checked ~ .enclobar .conteudo-main .content-section .experencies h5,.enclobar .conteudo-main .content-section .experencies p,.enclobar .conteudo-main .content-section .experince-info .flex-cont li,.enclobar  .conteudo-main .content-section .experince-info .flex-cont li span,.enclobar .conteudo-main .content-section .experince-info ul li,.enclobar .conteudo-main .info-guormet .info-loc .prf h4,.conteudo-main .info-guormet .info-loc-doublle .prf2 h4,.conteudo-main .final .end-info h2,.enclobar .rodape p
+#bgcheck:checked ~ .enclobar .conteudo-main .content-section .experencies h5,.enclobar .conteudo-main .content-section .experince-info .flex-cont li,.enclobar  .conteudo-main .content-section .experince-info .flex-cont li span,.enclobar .conteudo-main .content-section .experince-info ul li,.enclobar .conteudo-main .info-guormet .info-loc .prf h4,.conteudo-main .info-guormet .info-loc-doublle .prf2 h4,.conteudo-main .final .end-info h2,.enclobar .rodape p
 {
+    color: white;
+}
+#bgcheck:checked ~ .enclobar .conteudo-main .experencies .para{
     color: white;
 }
 .enclobar .container-glob  .navgation ul li a{
