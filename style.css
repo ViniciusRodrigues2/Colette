@@ -42,8 +42,8 @@ body{
     position: absolute;
     left: 14.50em;
     border-top: 2px solid transparent;
-    border-bottom: 4px solid black;
-    border-right:4px solid black ;
+    border-bottom: 4px solid #1B1F24;
+    border-right:4px solid #1B1F24;
 }
 .container-glob{
     position: relative;
